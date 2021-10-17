@@ -100,18 +100,6 @@ public class TicTacToe {
     }
 
     boolean isWin(char ch) {
-           /* // x
-            if (table [0] [0] == ch && table [1] [0] ==ch && table [2] [0] == ch) return true;
-            if (table [0] [1] == ch && table [1] [1] ==ch && table [2] [1] == ch) return true;
-            if (table [0] [2] == ch && table [1] [2] ==ch && table [2] [2] == ch) return true;
-            // y
-            if (table [0] [0] == ch && table [0] [1] ==ch && table [0] [2] == ch) return true;
-            if (table [1] [0] == ch && table [1] [1] ==ch && table [1] [2] == ch) return true;
-            if (table [2] [0] == ch && table [2] [1] ==ch && table [2] [2] == ch) return true;
-            //d
-            if (table [0] [0] == ch && table [1] [1] ==ch && table [2] [2] == ch) return true;
-            if (table [2] [0] == ch && table [1] [1] ==ch && table [0] [2] == ch) return true;
-            return false;*/
         int i = 0;
         while (i < 3) {
             boolean cols = true;
